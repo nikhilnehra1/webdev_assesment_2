@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy</title>
+    <style>
+       body {
+            font-family: Arial;
+            margin: 0;
+            background: #eee;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav {
+            background: #333;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .sale {
+            background: #ffe38a;
+            text-align: center;
+            padding: 20px;
+            margin: 20px 7%;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #ccc;
+            padding: 15px;
+            width: 150px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100px;
+            height: 60px;
+        }
+
+        button {
+            background: #222;
+            color: white;
+            padding: 7px;
+            border: none;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background: #222;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>ShopEasy</h2>
+        <p>Your Simple Online Store</p>
+        <input type="text" placeholder="Search products...">
+        <button>Cart </button>
+    </header>
+
+    <nav>
+         <a href="home">Home</a>
+        <a href="products">Products</a>
+        <a href="deals">Deals</a>
+        <a href="contact">Contact</a>
+    </nav>
+
+    <div class="sale">
+        <h3> BIG SALE - UP TO 50% OFF </h3>
+        <p>Grab your favourite products today!</p>
+    </div>
+
+    <h3>Our Products</h3>
+
+    <div class="products">
+        <div class="card">
+            <img src="laptop.jpg" alt="Laptop">
+            <h4>Laptop</h4>
+            <p>Powerful laptop for students and developers.</p>
+            <p class="price">₹55,000</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="headphones.jpg" alt="Headphones">
+            <h4>Headphones</h4>
+            <p>Wireless headphones with excellent sound.</p>
+            <p class="price">₹2,000</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="keyboard.jpg" alt="Keyboard">
+            <h4>Keyboard</h4>
+            <p>Mechanical keyboard for programmers.</p>
+            <p class="price">₹1,500</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="watch.jpg" alt="Smart Watch">
+            <h4>Smart Watch</h4>
+            <p>Smart watch with fitness tracking features.</p>
+            <p class="price">₹3,500</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <h3>Product Comparison</h3>
+
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Rating</th>
+            <th>Availability</th>
+        </tr>
+        <tr>
+            <td>Laptop</td>
+            <td>₹55,000</td>
+            <td>4.5 </td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Headphones</td>
+            <td>₹2,000</td>
+            <td>4.2 </td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Keyboard</td>
+            <td>₹1,500</td>
+            <td>4.0 </td>
+            <td>Out of Stock</td>
+        </tr>
+        <tr>
+            <td>Smart Watch</td>
+            <td>₹3,500</td>
+            <td>4.3 </td>
+            <td>Available</td>
+        </tr>
+    </table>
+
+</body>
+</html>
